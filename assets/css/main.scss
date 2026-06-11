@@ -3540,7 +3540,7 @@ body {
   background: radial-gradient(circle, rgba(37, 99, 235, 0.1) 0%, transparent 70%);
 }
 
-.agb-page-glow--team {
+.agb-page-glow--stub {
   top: 14%;
   left: -60px;
   width: 340px;
@@ -3764,21 +3764,21 @@ body {
   transform: rotate(6deg);
 }
 
-.agb-page-team-link {
+.agb-page-decor-line {
   position: absolute;
   height: 1px;
   background: linear-gradient(90deg, transparent, rgba(37, 99, 235, 0.2), transparent);
   transform-origin: left center;
 }
 
-.agb-page-team-link--1 {
+.agb-page-decor-line--1 {
   top: 38%;
   left: 12%;
   width: 140px;
   transform: rotate(18deg);
 }
 
-.agb-page-team-link--2 {
+.agb-page-decor-line--2 {
   bottom: 34%;
   right: 14%;
   width: 120px;
@@ -3864,7 +3864,7 @@ body {
   .agb-page-theme-icon,
   .agb-page-dots,
   .agb-page-paper-line,
-  .agb-page-team-link {
+  .agb-page-decor-line {
     display: none !important;
   }
 }
@@ -3890,7 +3890,7 @@ body {
   }
 
   .agb-page-paper-line,
-  .agb-page-team-link {
+  .agb-page-decor-line {
     opacity: 0.45;
   }
 }
@@ -4242,17 +4242,6 @@ body {
   margin: 0 0 8px;
   font-size: 1.75rem;
   font-weight: 800;
-}
-
-.agb-team-card {
-  border-radius: 24px;
-}
-
-.agb-team-card .agb-static-page-lead {
-  margin: 0;
-  max-width: 760px;
-  font-size: 1.0625rem;
-  line-height: 1.8;
 }
 
 .agb-static-page {

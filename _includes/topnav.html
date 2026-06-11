@@ -5,8 +5,6 @@
 {% if page.nav_id == "leaderboard" or current_url contains "/leaderboard/" %}{% assign leaderboard_active = true %}{% endif %}
 {% assign paper_active = false %}
 {% if page.nav_id == "paper" or current_url contains "/paper/" %}{% assign paper_active = true %}{% endif %}
-{% assign team_active = false %}
-{% if page.nav_id == "team" or current_url contains "/team/" %}{% assign team_active = true %}{% endif %}
 {% assign github_url = site.git_address | default: "#" %}
 
 <nav class="navbar navbar-default navbar-fixed-top agb-nav">
@@ -58,10 +56,6 @@
 
                 <li class="{% if paper_active %}active{% endif %}">
                     <a href="{{ "/paper/" | relative_url }}">Paper</a>
-                </li>
-
-                <li class="{% if team_active %}active{% endif %}">
-                    <a href="{{ "/team/" | relative_url }}">Team</a>
                 </li>
 
                 <li>

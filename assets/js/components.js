@@ -21,10 +21,6 @@ const THEME_DECOR = {
   `,
   datasets: `<span class="agb-page-float-node agb-page-float-node--1"></span>`,
   paper: `<span class="agb-page-paper-line agb-page-paper-line--1"></span>`,
-  team: `
-    <span class="agb-page-team-link agb-page-team-link--1" aria-hidden="true"></span>
-    <span class="agb-page-float-node agb-page-float-node--1"></span>
-  `,
   github: `<i class="fa fa-github agb-page-theme-icon agb-page-theme-icon--github" aria-hidden="true"></i>`
 };
 
@@ -33,13 +29,12 @@ const PARTICLE_COUNTS = {
   leaderboard: 0,
   datasets: 2,
   paper: 2,
-  team: 2,
   github: 2,
   default: 2
 };
 
 const CLEAN_THEMES = new Set(["challenge"]);
-const LIGHT_THEMES = new Set(["datasets", "paper", "team", "github", "leaderboard"]);
+const LIGHT_THEMES = new Set(["datasets", "paper", "github", "leaderboard"]);
 
 function renderParticles(count) {
   let html = "";

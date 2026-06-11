@@ -57,7 +57,6 @@ Contents are static only: HTML, CSS, JS, images, fonts, `favicon.svg`, `feed.xml
 | Datasets | `datasets.html` |
 | Leaderboard | `leaderboard.html` |
 | Paper | `paper.html` |
-| Team | `team.html` |
 | GitHub | External link (`git_address` in `_config.yml`) |
 
 Preview locally:
