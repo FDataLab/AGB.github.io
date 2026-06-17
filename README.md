@@ -7,11 +7,11 @@
 
 ---
 
-### 📊 Benchmark • 🛡️ Robustness • 🏆 Leaderboards • 🔬 Research
+###  Benchmark •  Robustness •  Leaderboards •  Research
 
 </div>
 
-## 🚀 What is AGB?
+##  What is AGB?
 
 AGB is a benchmark platform designed to provide **standardized**, **fair**, and **reproducible** evaluation of adversarial attacks and defenses on Graph Neural Networks (GNNs).
 
@@ -19,21 +19,21 @@ Inspired by the GOttack benchmark framework, AGB enables researchers to compare 
 
 ---
 
-## ✨ Features
+##  Features
 
 <table>
 <tr>
 <td width="50%">
 
-### 🏆 Leaderboards
+###  Leaderboards
 
 Compare attack and defense performance using unified evaluation protocols.
 
-### 📊 Benchmark Datasets
+###  Benchmark Datasets
 
 Homophilic, heterophilic, and large-scale graph benchmarks.
 
-### 🛡️ Attack Evaluation
+###  Attack Evaluation
 
 Fair comparison of poisoning and evasion attacks.
 
@@ -41,15 +41,15 @@ Fair comparison of poisoning and evasion attacks.
 
 <td width="50%">
 
-### 🔒 Defense Analysis
+###  Defense Analysis
 
 Evaluate robustness of defended GNN models.
 
-### 🔬 Reproducibility
+###  Reproducibility
 
 Standardized experimental settings.
 
-### 🌍 Research Platform
+###  Research Platform
 
 Designed for the graph learning community.
 
@@ -59,7 +59,7 @@ Designed for the graph learning community.
 
 ---
 
-## 📈 Benchmark at a Glance
+##  Benchmark at a Glance
 
 <div align="center">
 
@@ -71,7 +71,7 @@ Designed for the graph learning community.
 
 ---
 
-## 🎯 Supported Datasets
+##  Supported Datasets
 
 <div align="center">
 
@@ -85,7 +85,7 @@ Designed for the graph learning community.
 
 ---
 
-## 🛠 Website Pages
+##  Website Pages
 
 <div align="center">
  
@@ -103,7 +103,7 @@ Designed for the graph learning community.
 ---
 
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 git clone https://github.com/FDataLab/AGB.github.io.git cd AGB.github.io
@@ -123,24 +123,24 @@ http://localhost:4000
 
 ---
 
-## 🤝 Contributors
+##  Contributors
 
 Developed by researchers and contributors from:
 
-- University of Central Florida (UCF)
+- University of Central Florida
 - Virginia Tech
 
 ---
 
-## ⭐ Support
+##  Support
 
 If you find AGB useful:
 
-⭐ Star this repository
+ Star this repository
 
-📢 Share with the graph learning community
+ Share with the graph learning community
 
-🔬 Use it in your research
+ Use it in your research
 
 ---
 
