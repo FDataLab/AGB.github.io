@@ -1,8 +1,6 @@
 # Adversarial Graph Benchmark (AGB) Website
 
-Static marketing and benchmark site for the Adversarial Graph Benchmark. Built with [Jekyll](https://jekyllrb.com/) (Ruby); production output is a fully static folder suitable for cPanel, SFTP, Git-based deploy, or any static host.
-
-There is **no** Node server, SSR, or API layer in production.
+A standardized benchmark for evaluating adversarial attacks and defenses on Graph Neural Networks (GNNs). AGB provides unified datasets, reproducible evaluation protocols, benchmark leaderboards, and comprehensive robustness analysis across poisoning and evasion attack scenarios.
 
 ## Requirements
 
