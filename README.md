@@ -5,15 +5,6 @@
 
 ### Towards Practical and Fair Evaluation of Adversarial Graph Neural Networks
 
-<p align="center">
-  <a href="https://agb.chartalist.org">
-    <img src="https://img.shields.io/badge/🌐_Website-Visit_AGB-2563EB?style=for-the-badge">
-  </a>
-  <a href="https://github.com/nivedithajalagam21/AGB-website">
-    <img src="https://img.shields.io/badge/GitHub-Repository-111827?style=for-the-badge&logo=github">
-  </a>
-</p>
-
 ---
 
 ### 📊 Benchmark • 🛡️ Robustness • 🏆 Leaderboards • 🔬 Research
@@ -103,27 +94,15 @@ Designed for the graph learning community.
 | 📊 Datasets | Dataset collection |
 | 🎯 AGB Challenge | Challenge tracks |
 | 📄 Paper | Benchmark publication |
-| 👥 Team | Contributors |
 | 💻 GitHub | Source code |
 
 ---
 
-## 📸 Website Preview
-
-<p align="center">
-  <img src="assets/img/homepage-preview.png" width="900">
-</p>
-
-<p align="center">
-<i>Add screenshots from your website here.</i>
-</p>
-
----
 
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/nivedithajalagam21/AGB-website.git
+git clone https://github.com/FDataLab/AGB.github.io.git cd AGB.github.io
 
 cd AGB-website
 
@@ -137,12 +116,6 @@ Open:
 ```text
 http://localhost:4000
 ```
-
----
-
-## 🌐 Live Website
-
-### https://agb.chartalist.org
 
 ---
 
