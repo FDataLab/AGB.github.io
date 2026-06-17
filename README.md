@@ -86,7 +86,9 @@ Designed for the graph learning community.
 ---
 
 ## 🛠 Website Pages
+
 <div align="center">
+ 
 | Page | Description |
 |--------|-------------|
 | 🏠 Home | Benchmark overview |
@@ -95,7 +97,9 @@ Designed for the graph learning community.
 | 🎯 AGB Challenge | Challenge tracks |
 | 📄 Paper | Benchmark publication |
 | 💻 GitHub | Source code |
+
 </div>
+
 ---
 
 
