@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="assets/img/agb-logo.png" width="140"/>
 
 # 🛡️ Adversarial Graph Benchmark (AGB)
 
