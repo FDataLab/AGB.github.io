@@ -1,5 +1,5 @@
 <h1 align="center" style="font-size:60px;">
-🛡️ Adversarial Graph Benchmark (AGB)
+ Adversarial Graph Benchmark (AGB)
 </h1>
 
 ### Towards Practical and Fair Evaluation of Adversarial Graph Neural Networks
