@@ -7,9 +7,9 @@ lang: en-US
 
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: https://example.com # update when deploying
-git_address: https://github.com/your-org/agb
+git_address: https://github.com/nivedithajalagam21/AGB-website
 paper_address: https://arxiv.org/abs/2502.06918
-git_edit_address: https://github.com/your-org/agb
+git_edit_address: https://github.com/nivedithajalagam21/AGB-website
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap

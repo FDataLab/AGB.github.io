@@ -2,6 +2,9 @@
     <div class="container agb-footer-inner">
         <p class="agb-footer-text">
             {{ site.title }} {{ site.time | date: '%Y' }} | GOttack Research Website
+            {% if site.git_address %}
+            | <a href="{{ site.git_address }}" class="agb-footer-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+            {% endif %}
         </p>
     </div>
 </footer>
