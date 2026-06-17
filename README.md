@@ -1,5 +1,6 @@
-# 🛡️ Adversarial Graph Benchmark (AGB)
-
+<div align="center">
+  # 🛡️ Adversarial Graph Benchmark (AGB)
+</div>
 <div align="center">
 
 ### Towards Practical and Fair Evaluation of Adversarial Graph Neural Networks
