@@ -1,5 +1,5 @@
 <div align="center">
-  # 🛡️ Adversarial Graph Benchmark (AGB)
+  ### 🛡️ Adversarial Graph Benchmark (AGB) ###
 </div>
 <div align="center">
 
