@@ -1,7 +1,7 @@
 <div align="center">
 
 
-# 🛡️ Adversarial Graph Benchmark (AGB)
+#  Adversarial Graph Benchmark (AGB)
 
 ### Towards Practical and Fair Evaluation of Adversarial Graph Neural Networks
 
@@ -144,7 +144,7 @@ If you find AGB useful:
 
 ### Built for the Adversarial Graph Learning Community
 
-🛡️ AGB • Fair Evaluation • Reproducible Research
+ AGB • Fair Evaluation • Reproducible Research
 
 </div>
 
