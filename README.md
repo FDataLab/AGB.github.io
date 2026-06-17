@@ -4,11 +4,6 @@
 
 ### Towards Practical and Fair Evaluation of Adversarial Graph Neural Networks
 
-[🌐 Website](https://agb.chartalist.org) •
-[📖 Paper](https://github.com/FDataLab/AGB.github.io) •
-[🏆 Leaderboard](https://agb.chartalist.org) •
-[📂 Repository](https://github.com/FDataLab/AGB.github.io)
-
 </div>
 
 ---
@@ -100,8 +95,7 @@ Transparent benchmark design, reproducibility guidelines, and standardized evalu
 | AGB Challenge | Community challenge and participation |
 | Datasets      | Benchmark datasets and statistics     |
 | Leaderboard   | Performance rankings                  |
-| Paper         | Benchmark publication and methodology |
-| Team          | Research contributors                 |
+| Paper         | Benchmark publication and methodology |               
 | GitHub        | Repository and source code            |
 
 ---
