@@ -1,123 +1,135 @@
-<h1 align="center" style="font-size:60px;">
- Adversarial Graph Benchmark (AGB)
-</h1>
+<div align="center">
+
+<img src="assets/img/agb-logo.png" width="140"/>
+
+# 🛡️ Adversarial Graph Benchmark (AGB)
 
 ### Towards Practical and Fair Evaluation of Adversarial Graph Neural Networks
+
+<p align="center">
+  <a href="https://agb.chartalist.org">
+    <img src="https://img.shields.io/badge/🌐_Website-Visit_AGB-2563EB?style=for-the-badge">
+  </a>
+  <a href="https://github.com/nivedithajalagam21/AGB-website">
+    <img src="https://img.shields.io/badge/GitHub-Repository-111827?style=for-the-badge&logo=github">
+  </a>
+</p>
+
+---
+
+### 📊 Benchmark • 🛡️ Robustness • 🏆 Leaderboards • 🔬 Research
+
+</div>
+
+## 🚀 What is AGB?
+
+AGB is a benchmark platform designed to provide **standardized**, **fair**, and **reproducible** evaluation of adversarial attacks and defenses on Graph Neural Networks (GNNs).
+
+Inspired by the GOttack benchmark framework, AGB enables researchers to compare methods under consistent settings across multiple datasets, attack models, and defense strategies.
+
+---
+
+## ✨ Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 🏆 Leaderboards
+
+Compare attack and defense performance using unified evaluation protocols.
+
+### 📊 Benchmark Datasets
+
+Homophilic, heterophilic, and large-scale graph benchmarks.
+
+### 🛡️ Attack Evaluation
+
+Fair comparison of poisoning and evasion attacks.
+
+</td>
+
+<td width="50%">
+
+### 🔒 Defense Analysis
+
+Evaluate robustness of defended GNN models.
+
+### 🔬 Reproducibility
+
+Standardized experimental settings.
+
+### 🌍 Research Platform
+
+Designed for the graph learning community.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📈 Benchmark at a Glance
+
+<div align="center">
+
+| Experiments | Attacks | Defenses | Datasets |
+|------------|----------|----------|----------|
+| **437,000+** | **7** | **8** | **6** |
 
 </div>
 
 ---
 
-## Overview
+## 🎯 Supported Datasets
 
-The **Adversarial Graph Benchmark (AGB)** is a benchmark platform for evaluating the robustness of Graph Neural Networks (GNNs) against adversarial attacks.
+<div align="center">
 
-AGB provides a standardized framework for:
+| Homophilic | Heterophilic | Large Scale |
+|------------|--------------|------------|
+| CORA | CHAMELEON | OGB-ARXIV |
+| CITESEER | SQUIRREL | |
+| PUBMED | | |
 
-* 📊 Benchmark datasets
-* 🛡️ Adversarial attack evaluation
-* 🔒 Defense robustness assessment
-* 🏆 Public leaderboards
-* 📚 Reproducible evaluation protocols
-* 🔬 Fair and consistent benchmarking
-
-The goal of AGB is to facilitate rigorous comparison of graph learning methods under realistic adversarial settings.
+</div>
 
 ---
 
-## Key Features
+## 🛠 Website Pages
 
-### 🏆 Benchmark Leaderboards
-
-Evaluate and compare attack and defense methods using standardized metrics and experimental settings.
-
-### 📊 Diverse Graph Datasets
-
-Includes homophilic, heterophilic, and large-scale graph benchmarks commonly used in adversarial graph learning research.
-
-### 🛡️ Attack Evaluation
-
-Support for evaluating poisoning attacks, evasion attacks, and robustness degradation under adversarial perturbations.
-
-### 🔒 Defense Analysis
-
-Benchmark graph defense methods under unified protocols for fair comparison.
-
-### 📚 Research Methodology
-
-Transparent benchmark design, reproducibility guidelines, and standardized evaluation procedures.
+| Page | Description |
+|--------|-------------|
+| 🏠 Home | Benchmark overview |
+| 🏆 Leaderboard | Benchmark rankings |
+| 📊 Datasets | Dataset collection |
+| 🎯 AGB Challenge | Challenge tracks |
+| 📄 Paper | Benchmark publication |
+| 👥 Team | Contributors |
+| 💻 GitHub | Source code |
 
 ---
 
-## Benchmark Datasets
+## 📸 Website Preview
 
-### Homophilic Graphs
+<p align="center">
+  <img src="assets/img/homepage-preview.png" width="900">
+</p>
 
-* CORA
-* CITESEER
-* PUBMED
-
-### Heterophilic Graphs
-
-* CHAMELEON
-* SQUIRREL
-
-### Large-Scale Graphs
-
-* OGB-ARXIV
+<p align="center">
+<i>Add screenshots from your website here.</i>
+</p>
 
 ---
 
-## Evaluation Categories
-
-### Adversarial Attacks
-
-* Nettack
-* FGA
-* SGA
-* PR-BCD
-* Additional benchmarked attack methods
-
-### Robust Defenses
-
-* GCN-based defenses
-* Robust aggregation methods
-* Structure-aware defenses
-* Adversarial training approaches
-
----
-
-## Website Structure
-
-| Page          | Description                           |
-| ------------- | ------------------------------------- |
-| Home          | Overview of the benchmark             |
-| AGB Challenge | Community challenge and participation |
-| Datasets      | Benchmark datasets and statistics     |
-| Leaderboard   | Performance rankings                  |
-| Paper         | Benchmark publication and methodology |               
-| GitHub        | Repository and source code            |
-
----
-
-## Local Development
-
-Clone the repository:
+## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/FDataLab/AGB.github.io.git
-cd AGB.github.io
-```
+git clone https://github.com/nivedithajalagam21/AGB-website.git
 
-Install dependencies:
+cd AGB-website
 
-```bash
 npm install
-```
 
-Run locally:
-
-```bash
 npm run dev
 ```
 
@@ -129,58 +141,40 @@ http://localhost:4000
 
 ---
 
-## Build
+## 🌐 Live Website
 
-Generate the production build:
-
-```bash
-npm run build
-```
-
-Deployment-ready files are generated in:
-
-```text
-dist/
-```
+### https://agb.chartalist.org
 
 ---
 
-## Deployment
+## 🤝 Contributors
 
-The website is designed for:
+Developed by researchers and contributors from:
 
-* Git-based deployment
-* Static hosting
-* SFTP deployment
-* cPanel hosting
-
-All production assets are exported as static files for reproducible deployment.
+- University of Central Florida (UCF)
+- Virginia Tech
 
 ---
 
-## Project Goals
+## ⭐ Support
 
-* Standardized evaluation
-* Reproducible experimentation
-* Fair attack comparison
-* Robust defense benchmarking
-* Open research collaboration
+If you find AGB useful:
 
----
+⭐ Star this repository
 
-## Contributing
+📢 Share with the graph learning community
 
-Contributions, bug reports, and feature suggestions are welcome.
-
-Please open an issue or submit a pull request.
+🔬 Use it in your research
 
 ---
 
-## License
+<div align="center">
 
-This project is intended for academic and research use.
+### Built for the Adversarial Graph Learning Community
 
----
+🛡️ AGB • Fair Evaluation • Reproducible Research
+
+</div>
 
 <div align="center">
 
