@@ -1,101 +1,195 @@
-# Adversarial Graph Benchmark (AGB) Website
+# 🛡️ Adversarial Graph Benchmark (AGB)
 
-A standardized benchmark for evaluating adversarial attacks and defenses on Graph Neural Networks (GNNs). AGB provides unified datasets, reproducible evaluation protocols, benchmark leaderboards, and comprehensive robustness analysis across poisoning and evasion attack scenarios.
+<div align="center">
 
-## Requirements
+### Towards Practical and Fair Evaluation of Adversarial Graph Neural Networks
 
-- **Ruby** 2.7+ (3.x recommended)
-- **Bundler** (`gem install bundler`)
-- **Python** 3.8+ (post-process step only; stdlib only)
-- **npm** (optional convenience wrapper for `npm run build`)
+[🌐 Website](https://agb.chartalist.org) •
+[📖 Paper](https://github.com/FDataLab/AGB.github.io) •
+[🏆 Leaderboard](https://agb.chartalist.org) •
+[📂 Repository](https://github.com/FDataLab/AGB.github.io)
 
-## Installation
+</div>
+
+---
+
+## Overview
+
+The **Adversarial Graph Benchmark (AGB)** is a benchmark platform for evaluating the robustness of Graph Neural Networks (GNNs) against adversarial attacks.
+
+AGB provides a standardized framework for:
+
+* 📊 Benchmark datasets
+* 🛡️ Adversarial attack evaluation
+* 🔒 Defense robustness assessment
+* 🏆 Public leaderboards
+* 📚 Reproducible evaluation protocols
+* 🔬 Fair and consistent benchmarking
+
+The goal of AGB is to facilitate rigorous comparison of graph learning methods under realistic adversarial settings.
+
+---
+
+## Key Features
+
+### 🏆 Benchmark Leaderboards
+
+Evaluate and compare attack and defense methods using standardized metrics and experimental settings.
+
+### 📊 Diverse Graph Datasets
+
+Includes homophilic, heterophilic, and large-scale graph benchmarks commonly used in adversarial graph learning research.
+
+### 🛡️ Attack Evaluation
+
+Support for evaluating poisoning attacks, evasion attacks, and robustness degradation under adversarial perturbations.
+
+### 🔒 Defense Analysis
+
+Benchmark graph defense methods under unified protocols for fair comparison.
+
+### 📚 Research Methodology
+
+Transparent benchmark design, reproducibility guidelines, and standardized evaluation procedures.
+
+---
+
+## Benchmark Datasets
+
+### Homophilic Graphs
+
+* CORA
+* CITESEER
+* PUBMED
+
+### Heterophilic Graphs
+
+* CHAMELEON
+* SQUIRREL
+
+### Large-Scale Graphs
+
+* OGB-ARXIV
+
+---
+
+## Evaluation Categories
+
+### Adversarial Attacks
+
+* Nettack
+* FGA
+* SGA
+* PR-BCD
+* Additional benchmarked attack methods
+
+### Robust Defenses
+
+* GCN-based defenses
+* Robust aggregation methods
+* Structure-aware defenses
+* Adversarial training approaches
+
+---
+
+## Website Structure
+
+| Page          | Description                           |
+| ------------- | ------------------------------------- |
+| Home          | Overview of the benchmark             |
+| AGB Challenge | Community challenge and participation |
+| Datasets      | Benchmark datasets and statistics     |
+| Leaderboard   | Performance rankings                  |
+| Paper         | Benchmark publication and methodology |
+| Team          | Research contributors                 |
+| GitHub        | Repository and source code            |
+
+---
+
+## Local Development
+
+Clone the repository:
 
 ```bash
-git clone <your-repo-url>
-cd AGB-WEB
-
-bundle install
-npm install   # optional; no runtime npm dependencies
+git clone https://github.com/FDataLab/AGB.github.io.git
+cd AGB.github.io
 ```
 
-Configure site metadata in `_config.yml` before deploying (at minimum `url`, `git_address`, and `paper_address`).
-
-## Local development
+Install dependencies:
 
 ```bash
-bundle exec jekyll serve
+npm install
 ```
 
-Open http://127.0.0.1:4000/ (Jekyll default). Pages use directory-style URLs (e.g. `/leaderboard/`).
+Run locally:
 
-## Production build
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:4000
+```
+
+---
+
+## Build
+
+Generate the production build:
 
 ```bash
 npm run build
 ```
 
-Equivalent:
+Deployment-ready files are generated in:
 
-```bash
-bundle exec jekyll build
-python3 scripts/prepare-static-deploy.py
+```text
+dist/
 ```
 
-**Output folder:** `dist/`
-
-Contents are static only: HTML, CSS, JS, images, fonts, `favicon.svg`, `feed.xml`, and `robots.txt` when present. Nav pages are flat files at the root (`index.html`, `challenge.html`, `datasets.html`, etc.) with relative asset paths for root hosting on cPanel.
-
-### Main routes (after build)
-
-| Page | File in `dist/` |
-|------|-----------------|
-| Home | `index.html` |
-| AGB Challenge | `challenge.html` |
-| Datasets | `datasets.html` |
-| Leaderboard | `leaderboard.html` |
-| Paper | `paper.html` |
-| GitHub | External link (`git_address` in `_config.yml`) |
-
-Preview locally:
-
-```bash
-npx --yes serve dist
-# or: python3 -m http.server 8080 --directory dist
-```
+---
 
 ## Deployment
 
-### Git-based (cPanel / static host)
+The website is designed for:
 
-1. Run `npm run build` locally or in CI.
-2. Upload **only** the contents of `dist/` to the web root (`public_html` or equivalent).
-3. Do **not** upload `node_modules/`, `_site/`, source Ruby files, or `.env` files.
-4. Update `_config.yml` `url` to your live domain and rebuild so feed/SEO tags are correct.
+* Git-based deployment
+* Static hosting
+* SFTP deployment
+* cPanel hosting
 
-### SFTP
+All production assets are exported as static files for reproducible deployment.
 
-1. Build locally: `npm run build`.
-2. SFTP into `public_html` (or your docroot).
-3. Sync `dist/` → remote docroot (overwrite old files).
-4. Confirm `index.html` loads and nav links open the correct `.html` pages.
+---
 
-### What not to commit
+## Project Goals
 
-- `dist/`, `_site/`, `node_modules/`
-- `.env`, `.env.local`
-- `agb.zip` or other deployment archives
-- API keys, credentials, or local-only data files
+* Standardized evaluation
+* Reproducible experimentation
+* Fair attack comparison
+* Robust defense benchmarking
+* Open research collaboration
 
-## Project layout (source)
+---
 
-| Path | Purpose |
-|------|---------|
-| `*.html`, `_includes/`, `_layouts/` | Jekyll pages and templates |
-| `assets/` | SCSS, JS modules, images, fonts, data |
-| `_config.yml` | Site configuration |
-| `scripts/prepare-static-deploy.py` | Flat `dist/` export + relative URL rewrite |
+## Contributing
+
+Contributions, bug reports, and feature suggestions are welcome.
+
+Please open an issue or submit a pull request.
+
+---
 
 ## License
 
-See `LICENSE` in the repository.
+This project is intended for academic and research use.
+
+---
+
+<div align="center">
+
+Built for the Graph Learning and Adversarial Machine Learning Research Community
+
+</div>
