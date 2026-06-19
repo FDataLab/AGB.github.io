@@ -91,12 +91,12 @@ Designed for the graph learning community.
  
 | Page | Description |
 |--------|-------------|
-| 🏠 Home | Benchmark overview |
-| 🏆 Leaderboard | Benchmark rankings |
-| 📊 Datasets | Dataset collection |
-| 🎯 AGB Challenge | Challenge tracks |
-| 📄 Paper | Benchmark publication |
-| 💻 GitHub | Source code |
+|  Home | Benchmark overview |
+|  Leaderboard | Benchmark rankings |
+|  Datasets | Dataset collection |
+|  AGB Challenge | Challenge tracks |
+|  Paper | Benchmark publication |
+|  GitHub | Source code |
 
 </div>
 
